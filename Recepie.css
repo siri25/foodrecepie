@@ -336,8 +336,7 @@ body {
     transition: all 0.5s; }
     .section-card-heading:hover {
       transform: scale(1.2);
-      text-shadow: 0 0.5rem 4rem rgba(238, 94, 94, 0.904);
-      backface-visibility: hidden; }
+      text-shadow: 0 0.5rem 4rem rgba(238, 94, 94, 0.904); }
 
 .card {
   perspective: 150rem;
@@ -364,8 +363,7 @@ body {
       background: linear-gradient(to right, rgba(42, 167, 11, 0.925), rgba(102, 212, 69, 0.993)); }
     .card_side_back_1 {
       background: linear-gradient(to right, rgba(206, 109, 44, 0.767), rgba(228, 197, 60, 0.87));
-      transform: rotateY(180deg);
-      backface-visibility: hidden; }
+      transform: rotateY(180deg); }
     .card_side_back_2 {
       background: linear-gradient(to right, rgba(15, 57, 121, 0.925), rgba(64, 230, 222, 0.993));
       transform: rotateY(180deg); }
@@ -385,19 +383,13 @@ body {
     background-position: center; }
     .card_picture_1 {
       background-image: url(../../img/debbie-tea-LO7rNP0LRro-unsplash-min.jpg);
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px; }
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
     .card_picture_2 {
       background-image: url(../../img/fried-rice-min.jpg);
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px; }
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
     .card_picture_3 {
       background-image: url(../../img/pasta-min.jpg);
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px; }
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
   .card_heading {
     font-size: 2rem;
     font-weight: 500;

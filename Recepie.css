@@ -395,6 +395,7 @@ body {
       border-top-right-radius: 5px; }
     .card_picture_3 {
       background-image: url(pasta-min.jpg);
+     
       clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
       border-top-left-radius: 5px;
       border-top-right-radius: 5px; }

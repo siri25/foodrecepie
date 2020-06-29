@@ -6,7 +6,7 @@
 html {
   /*font-size: 10px; */
   /*this is root value for all rem used in this stylesheet. It is always a good practice to use rem*/
-  font-size: 52.5%;
+  font-size: 62.5%;
   /*100% implies 16px, 62.5% implies 10px. i.e, 10/16=62.5. (Lecture 18) */ }
 
 body {
@@ -15,7 +15,7 @@ body {
   font-family: 'Roboto Mono', monospace; }
 
 .header {
-  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(Optimized-assorted-spices-near-white-ceramic-bowls-678414.jpg);
+  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(../img/Optimized-assorted-spices-near-white-ceramic-bowls-678414.jpg);
   height: 95vh;
   background-color: darkgray;
   background-size: cover;
@@ -111,7 +111,7 @@ body {
   border-radius: 10rem;
   transition: translate 2s;
   position: relative;
-  font-size: 1rem;
+  font-size: 2rem;
   /* animation: MoveFromBottom 3s ease-out 1s; */ }
 
 .btn:hover {
@@ -129,8 +129,8 @@ body {
   background-color: #fff;
   color: #777;
   position: relative;
-  left: 20%;
-  margin-top: 3rem; }
+  left: 30%;
+  margin-top: 5rem; }
   .btn-white::after {
     background-color: #FFF; }
 
@@ -204,13 +204,13 @@ body {
     outline-offset: 1.5rem; }
     .composition__photo__p1 {
       left: 0;
-/*       top: 1rem; } */
+      top: 1rem; }
     .composition__photo__p2 {
       right: 0;
-      top: 1.5rem; }
+      top: 2rem; }
     .composition__photo__p3 {
       left: 20%;
-      top: 5rem; }
+      top: 8rem; }
     .composition__photo:hover {
       outline: 1.5rem solid rgba(218, 60, 92, 0.582);
       transform: scale(1.2);
@@ -226,7 +226,7 @@ body {
   margin: -25vh 0 0 0; }
 
 .headertwo {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 500;
   opacity: 0.5;
   letter-spacing: .5rem;
@@ -282,18 +282,18 @@ body {
   text-align: center; }
 
 .features {
-  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
+  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(../../img/burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
   height: 90vh;
   background-color: darkgray;
   background-size: cover;
   background-position: bottom;
   transition: transform 0.1s;
   transform: skewY(-7deg);
-  margin-top: -12rem; }
+  margin-top: -16rem; }
   .features > * {
     transform: skewY(7deg); }
   .features_text {
-/*     width: 25rem; */
+    width: 25rem;
     padding: 3rem 0;
     text-align: center;
     margin: 20rem auto;
@@ -336,8 +336,7 @@ body {
     transition: all 0.5s; }
     .section-card-heading:hover {
       transform: scale(1.2);
-      text-shadow: 0 0.5rem 4rem rgba(238, 94, 94, 0.904);
-      backface-visibility: hidden; }
+      text-shadow: 0 0.5rem 4rem rgba(238, 94, 94, 0.904); }
 
 .card {
   perspective: 150rem;
@@ -353,7 +352,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 80%; }
+    width: 100%; }
     .card_side_front_1 {
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
@@ -364,8 +363,7 @@ body {
       background: linear-gradient(to right, rgba(42, 167, 11, 0.925), rgba(102, 212, 69, 0.993)); }
     .card_side_back_1 {
       background: linear-gradient(to right, rgba(206, 109, 44, 0.767), rgba(228, 197, 60, 0.87));
-      transform: rotateY(180deg);
-      backface-visibility: hidden; }
+      transform: rotateY(180deg); }
     .card_side_back_2 {
       background: linear-gradient(to right, rgba(15, 57, 121, 0.925), rgba(64, 230, 222, 0.993));
       transform: rotateY(180deg); }
@@ -384,21 +382,14 @@ body {
     height: 50%;
     background-position: center; }
     .card_picture_1 {
-      background-image: url(debbie-tea-LO7rNP0LRro-unsplash-min.jpg);
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px; }
+      background-image: url(../../img/debbie-tea-LO7rNP0LRro-unsplash-min.jpg);
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
     .card_picture_2 {
-      background-image: url(fried-rice-min.jpg);
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px; }
+      background-image: url(../../img/fried-rice-min.jpg);
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
     .card_picture_3 {
-      background-image: url(pasta-min.jpg);
-     
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px; }
+      background-image: url(../../img/pasta-min.jpg);
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
   .card_heading {
     font-size: 2rem;
     font-weight: 500;

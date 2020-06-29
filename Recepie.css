@@ -111,7 +111,7 @@ body {
   border-radius: 10rem;
   transition: translate 2s;
   position: relative;
-  font-size: 2rem;
+  font-size: 1rem;
   /* animation: MoveFromBottom 3s ease-out 1s; */ }
 
 .btn:hover {
@@ -129,8 +129,8 @@ body {
   background-color: #fff;
   color: #777;
   position: relative;
-  left: 30%;
-  margin-top: 5rem; }
+  left: 20%;
+  margin-top: 3rem; }
   .btn-white::after {
     background-color: #FFF; }
 
@@ -226,7 +226,7 @@ body {
   margin: -25vh 0 0 0; }
 
 .headertwo {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 500;
   opacity: 0.5;
   letter-spacing: .5rem;
@@ -282,18 +282,18 @@ body {
   text-align: center; }
 
 .features {
-  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(../../img/burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
+  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
   height: 90vh;
   background-color: darkgray;
   background-size: cover;
   background-position: bottom;
   transition: transform 0.1s;
   transform: skewY(-7deg);
-  margin-top: -16rem; }
+  margin-top: -12rem; }
   .features > * {
     transform: skewY(7deg); }
   .features_text {
-    width: 25rem;
+/*     width: 25rem; */
     padding: 3rem 0;
     text-align: center;
     margin: 20rem auto;
@@ -353,7 +353,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; }
+    width: 80%; }
     .card_side_front_1 {
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;

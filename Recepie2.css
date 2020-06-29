@@ -15,7 +15,7 @@ body {
   font-family: 'Roboto Mono', monospace; }
 
 .header {
-  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(../img/Optimized-assorted-spices-near-white-ceramic-bowls-678414.jpg);
+  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(Optimized-assorted-spices-near-white-ceramic-bowls-678414.jpg);
   height: 95vh;
   background-color: darkgray;
   background-size: cover;
@@ -282,7 +282,7 @@ body {
   text-align: center; }
 
 .features {
-  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(../../img/burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
+  background-image: linear-gradient(to bottom right, rgba(238, 63, 32, 0.603), rgba(165, 77, 42, 0.603)), url(burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
   height: 90vh;
   background-color: darkgray;
   background-size: cover;
@@ -382,13 +382,13 @@ body {
     height: 50%;
     background-position: center; }
     .card_picture_1 {
-      background-image: url(../../img/debbie-tea-LO7rNP0LRro-unsplash-min.jpg);
+      background-image: url(debbie-tea-LO7rNP0LRro-unsplash-min.jpg);
       clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
     .card_picture_2 {
-      background-image: url(../../img/fried-rice-min.jpg);
+      background-image: url(fried-rice-min.jpg);
       clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
     .card_picture_3 {
-      background-image: url(../../img/pasta-min.jpg);
+      background-image: url(pasta-min.jpg);
       clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
   .card_heading {
     font-size: 2rem;

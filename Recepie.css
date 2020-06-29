@@ -384,17 +384,17 @@ body {
     height: 50%;
     background-position: center; }
     .card_picture_1 {
-      background-image: url(../../img/debbie-tea-LO7rNP0LRro-unsplash-min.jpg);
+      background-image: url(debbie-tea-LO7rNP0LRro-unsplash-min.jpg);
       clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
       border-top-left-radius: 5px;
       border-top-right-radius: 5px; }
     .card_picture_2 {
-      background-image: url(../../img/fried-rice-min.jpg);
+      background-image: url(fried-rice-min.jpg);
       clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
       border-top-left-radius: 5px;
       border-top-right-radius: 5px; }
     .card_picture_3 {
-      background-image: url(../../img/pasta-min.jpg);
+      background-image: url(pasta-min.jpg);
       clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
       border-top-left-radius: 5px;
       border-top-right-radius: 5px; }

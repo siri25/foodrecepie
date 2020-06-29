@@ -204,13 +204,13 @@ body {
     outline-offset: 1.5rem; }
     .composition__photo__p1 {
       left: 0;
-      top: 1rem; }
+      top: -2rem; }
     .composition__photo__p2 {
       right: 0;
-      top: 2rem; }
+/*       top: 2rem; } */
     .composition__photo__p3 {
       left: 20%;
-      top: 8rem; }
+      top: 3rem; }
     .composition__photo:hover {
       outline: 1.5rem solid rgba(218, 60, 92, 0.582);
       transform: scale(1.2);
@@ -223,7 +223,7 @@ body {
   background-color: rgba(240, 209, 209, 0.877);
   height: 95vh;
   padding: 20rem 3rem;
-  margin: -25vh 0 0 0; }
+  margin: -25vh 0 8vh 0; }
 
 .headertwo {
   font-size: 5rem;

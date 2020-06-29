@@ -6,7 +6,7 @@
 html {
   /*font-size: 10px; */
   /*this is root value for all rem used in this stylesheet. It is always a good practice to use rem*/
-  font-size: 62.5%;
+  font-size: 52.5%;
   /*100% implies 16px, 62.5% implies 10px. i.e, 10/16=62.5. (Lecture 18) */ }
 
 body {
